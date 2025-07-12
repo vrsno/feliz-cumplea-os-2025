@@ -21,7 +21,7 @@ body {
   width: 100vw;
 }
 
-.container > div {
+.container>div {
   left: 0;
   position: absolute;
   right: 0;
@@ -86,11 +86,13 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,
+.idea-6 span,
+.wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span{
+.idea-6 span {
   font-size: 15rem;
 }
 
@@ -133,7 +135,8 @@ body {
   left: 30%;
 }
 
-.seven, .eight {
+.seven,
+.eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -223,6 +226,13 @@ body {
 #replay {
   cursor: pointer;
   z-index: 3;
+}
+
+.video {
+  display: block;
+  height: 400px;
+  margin: 0 auto;
+  width: 400px;
 }
 
 /* Media Queries */
